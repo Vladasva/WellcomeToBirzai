@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    tools:context="com.example.vladasverkelis.wellcometobirzai.MainActivity">
+
+    <!--Historical places-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_historical">
+        <TextView
+            android:id="@+id/historical"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Interesting history"/>
+    </FrameLayout>
+
+    <!--Nature objects-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_nature">
+        <TextView
+            android:id="@+id/nature"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Beautiful nature"/>
+    </FrameLayout>
+
+    <!--Entertainment activities-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_entertainment">
+        <TextView
+            android:id="@+id/entertaiment"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="What to do"/>
+    </FrameLayout>
+
+    <!--Coffee and food-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_food">
+        <TextView
+            android:id="@+id/food"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Where to eat"/>
+    </FrameLayout>
+
+    <!--Guests houses and hotels-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/category_hotel">
+        <TextView
+            android:id="@+id/hotel"
+            style="@style/CategoryStyle"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="Where to sleep"/>
+    </FrameLayout>
+</LinearLayout>

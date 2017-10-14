@@ -1,0 +1,16 @@
+<resources>
+    <!--Title for the application-->
+    <string name="app_name">WellcomeToBirzai</string>
+
+    <!--Categroy name for historical places-->
+
+    <!--Categroy name for nature objects-->
+
+    <!--Categroy name for entertainment activities-->
+
+    <!--Categroy name for coffee shops and restaurants-->
+
+    <!--Categroy name for hotels and guest houses-->
+</resources>
+
+

@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.vladasverkelis.wellcometobirzai">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/birzai"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".HistoricalActivity"
+            android:label="Interesting history"
+            android:parentActivityName=".MainActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".NatureActivity"
+            android:label="Beautiful nature"
+            android:parentActivityName=".MainActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".EntertainmentActivity"
+            android:label="What to do"
+            android:parentActivityName=".MainActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".FoodActivity"
+            android:label="Where to eat"
+            android:parentActivityName=".MainActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".HotelActivity"
+            android:label="Where to sleep"
+            android:parentActivityName=".MainActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
+        <activity android:name=".CastleActivity"
+            android:label="Birzai Castle"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".ManorActivity"
+            android:label="Astravas Manor"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".CatholicChurchActivity"
+            android:label="St. John’s the baptist church"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".ReformedChurchActivity"
+            android:label="Evangelical Reformed Church"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".TrinityChurchActivity"
+            android:label="Holy Trinity Church (Parish of Pabirze)"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".VabalninkasChurchActivity"
+            android:label="Assumption of the Blessed Virgin Mary Church"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".PapilysChurchActivity"
+            android:label="Holy Virgin Mary Church"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".PapilysReformedChurchActivity"
+            android:label="Evangelical Reformed Church of Papilys"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".GeidziunaiChurchActivity"
+            android:label="Holy Angels Custodians Church"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".KupreliskisChurchActivity"
+            android:label="St. Michael the Archangel Church"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".RadviliskisReformedChurchActivity"
+            android:label="Evangelical Reformed Church"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".RadviliskisCatholicChurchActivity"
+            android:label="Holy virgin Mary Church"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".SmilgiaiChurchActivity"
+            android:label="Church of Crucified Jesus"
+            android:parentActivityName=".HistoricalActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HistoricalActivity"/>
+        </activity>
+        <activity android:name=".SmardoneActivity"
+            android:label="Smardone spring"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".CowActivity"
+            android:label="Cow’s cave(Karves ola)"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".KirkilaiActivity"
+            android:label="Karst Lakelets in Kirkilai"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".UzubaliaiActivity"
+            android:label="Footpath through Užubaliai wetlands reserve"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".CaveActivity"
+            android:label="Cave of Velniapilis (Velniapilio ola)"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".ConfluenceActivity"
+            android:label="Confluence of the rivers Nemunėlis and Apaščia"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".MuoriskiaiActivity"
+            android:label="Outcrop of  Muoriškiai"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".TabokineActivity"
+            android:label="Outcrop of Tabokinė"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".NorthPointActivity"
+            android:label="The northernmost point of Lithuania"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".JuodzionysActivity"
+            android:label="Juodžionys field of erratic boulders"
+            android:parentActivityName=".NatureActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".NatureActivity"/>
+        </activity>
+        <activity android:name=".ZaldokasActivity"
+            android:label="Beer program of Zaldokas"
+            android:parentActivityName=".EntertainmentActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntertainmentActivity"/>
+        </activity>
+        <activity android:name=".BirzuAlusActivity"
+            android:label="The Brewary of Birzu alus"
+            android:parentActivityName=".EntertainmentActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntertainmentActivity"/>
+        </activity>
+        <activity android:name=".RinkuskiaiActivity"
+            android:label="The Brewery of Rinkuskiai"
+            android:parentActivityName=".EntertainmentActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntertainmentActivity"/>
+        </activity>
+        <activity android:name=".ButautaiActivity"
+            android:label="The Brewery of Butautai"
+            android:parentActivityName=".EntertainmentActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntertainmentActivity"/>
+        </activity>
+        <activity android:name=".AeroActivity"
+        android:label="Birzai Aero club"
+        android:parentActivityName=".EntertainmentActivity">
+        <!--Parent activity meta- data to support 4.0 and lower-->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".EntertainmentActivity"/>
+    </activity>
+        <activity android:name=".ManteballActivity"
+        android:label="Manteball"
+        android:parentActivityName=".EntertainmentActivity">
+        <!--Parent activity meta- data to support 4.0 and lower-->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".EntertainmentActivity"/>
+    </activity>
+        <activity android:name=".RidingActivity"
+            android:label="Riding services"
+            android:parentActivityName=".EntertainmentActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntertainmentActivity"/>
+        </activity>
+        <activity android:name=".GrainActivity"
+        android:label="The way of grain"
+        android:parentActivityName=".EntertainmentActivity">
+        <!--Parent activity meta- data to support 4.0 and lower-->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".EntertainmentActivity"/>
+    </activity>
+        <activity android:name=".BicycleActivity"
+        android:label="Bicycle rent"
+        android:parentActivityName=".EntertainmentActivity">
+        <!--Parent activity meta- data to support 4.0 and lower-->
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".EntertainmentActivity"/>
+    </activity>
+        <activity android:name=".SheepActivity"
+            android:label="Sheep clothing and food"
+            android:parentActivityName=".EntertainmentActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EntertainmentActivity"/>
+        </activity>
+        <activity android:name=".AlausKeliasActivity"
+            android:label="Alaus kelias"
+            android:parentActivityName=".FoodActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FoodActivity"/>
+        </activity>
+        <activity android:name=".PiliesSkliautaiActivity"
+            android:label="Pilies skliautai"
+            android:parentActivityName=".FoodActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".FoodActivity"/>
+        </activity>
+        <activity android:name=".TylaActivity"
+            android:label="Tyla"
+            android:parentActivityName=".HotelActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HotelActivity"/>
+        </activity>
+        <activity android:name=".HelvedaActivity"
+            android:label="Helveda"
+            android:parentActivityName=".HotelActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HotelActivity"/>
+        </activity>
+        <activity android:name=".CampingActivity"
+            android:label="Camping"
+            android:parentActivityName=".HotelActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HotelActivity"/>
+        </activity>
+        <activity android:name=".SodeliskisActivity"
+            android:label="Sodeliškių dvaras"
+            android:parentActivityName=".HotelActivity">
+            <!--Parent activity meta- data to support 4.0 and lower-->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".HotelActivity"/>
+        </activity>
+
+    </application>
+
+</manifest>

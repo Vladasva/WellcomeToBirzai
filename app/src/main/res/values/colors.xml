@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <!--Background color for the historical places category-->
+    <color name="category_historical">#16AFCA</color>
+    <!--Background color for the nature objects category-->
+    <color name="category_nature">#FF99CC00</color>
+    <!--Background color for the entertainment activities category-->
+    <color name="category_entertainment">#FFFFBB33</color>
+    <!--Background color for the coffee places and restaurants category-->
+    <color name="category_food">#FFAA66CC</color>
+    <!--Background color for the guests houses and hotels category-->
+    <color name="category_hotel">#FFFF4444</color>
+    <!--Background color for the about category-->
+    <color name="category_about">#16AFCA</color>
+    <!--Background color for app-->
+    <color name="tan_background">#FFF7DA</color>
+</resources>
